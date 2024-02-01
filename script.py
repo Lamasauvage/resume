@@ -59,6 +59,29 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
+
+# --- GOALS ---
+
+st.write("#")
+st.subheader("Career Aspirations")
+st.markdown(
+    """
+    <div style="text-align: justify;">
+        🌱 As I continue to grow and develop professionally, my goal is to become a Junior Software Developer, 
+        specializing in Python. I am passionate about writing clean, efficient, and accessible code.<br><br>
+        📊 Additionally, I have a strong interest in the fields of Data Analysis, Data Engineering and AI. 
+        <br><br>
+        💻 I aspire to leverage my skills in these areas to contribute to meaningful projects that drive 
+        business innovation and success. My ideal role is one where I can keep learning, 
+        tackle challenging problems, and make a positive impact with my work.<br><br>
+        🚀 My future aspirations are not just to grow as a developer but also to contribute significantly 
+        to my team and the wider community through innovative solutions and continuous improvement.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # --- EXPERIENCE ---
 st.write("#")
 st.subheader("Experience & Qualifications")
