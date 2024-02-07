@@ -67,7 +67,7 @@ st.subheader("Career Aspirations")
 st.markdown(
     """
     <div style="text-align: justify;">
-        🌱 As I continue to grow and develop professionally, my goal is to become a Junior Software Developer, 
+        🌱 As I continue to grow and develop professionally, my goal is to become a Software Developer, 
         specializing in Python. I am passionate about writing clean, efficient, and accessible code.<br><br>
         📊 Additionally, I have a strong interest in the fields of Data Analysis, Data Engineering and AI. 
         <br><br>
