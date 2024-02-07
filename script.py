@@ -25,6 +25,7 @@ SOCIAL_MEDIA = {
 PROJECTS = {
     "Complete Website Development Project with Database": "https://acs-sport-santé.fr",
     "Professional Title": "https://www.francecompetences.fr/recherche/rncp/37674/",
+    "IT Asset Management and Compliance Automation System": None,
     "🏆 More projects to come...": None,
 }
 
@@ -167,6 +168,8 @@ for project, link in PROJECTS.items():
         st.markdown("🏆 Obtained Professional Title (TP) - [Web and Mobile Web Developer](https://www.francecompetences.fr/recherche/rncp/37674/) in June 2023", unsafe_allow_html=True)
     elif project == "Complete Website Development Project with Database":
         st.markdown("🏆 Complete Website Development Project with Database - [ACS Sport Santé](https://acs-sport-santé.fr)", unsafe_allow_html=True)
+    elif project == "IT Asset Management and Compliance Automation System":
+        st.markdown("🏆 IT Asset Management and Compliance Automation System : Developed a data integration and anomaly detection system to streamline IT asset management and compliance.")
     elif link:
         # Display other project names as hyperlinks
         st.markdown(f"[{project}]({link})", unsafe_allow_html=True)
